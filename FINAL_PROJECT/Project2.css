@@ -1,0 +1,15 @@
+
+    html,
+    body {margin: 0;}
+    table, th, td {border: 1px solid black; border-collapse: separate;}
+    th:nth-child(even),td:nth-child(even) {background-color: #fdc189fb;}
+    table {margin: 16px auto; height: 50%; width: 90%;}
+    
+    .banner {background-color: rgba(8, 8, 165, 0.89); padding: 16px;}
+    .banner__content {max-width: 1000 px; max-height: 120px;}
+    .banner__text {text-align: left;}
+
+
+    .banner__close {width: 100px; height: .075px; background: none; border: none;}
+    .banner__text {color: white;}
+    .img {width: 120px ; height: 50px; position: absolute; top: 25px; right: 0px; background-image: url(Banner/Banner_3.png); background-size: 100%;}   
